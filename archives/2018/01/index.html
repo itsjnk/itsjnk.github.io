@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -10,7 +10,7 @@
 
 <link rel="stylesheet" href="/css/main.css">
 
-
+<link rel="stylesheet" href="https://fonts.loli.net/css?family=EB Garamond:300,300italic,400,400italic,700,700italic|Cinzel Decorative:300,300italic,400,400italic,700,700italic|Source Code Pro:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
 
 
@@ -48,7 +48,7 @@
 <meta property="og:title" content="JnKuo&#39;s Site">
 <meta property="og:url" content="http://www.jnkuo.com/archives/2018/01/index.html">
 <meta property="og:site_name" content="JnKuo&#39;s Site">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="JnKuo 浆果">
 <meta name="twitter:card" content="summary">
 
@@ -63,8 +63,19 @@
     isPost: false
   };
 </script>
+<!-- For Chinese title -->
+<link href="https://fonts.loli.net/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+<link href="https://fonts.loli.net/css?family=Long+Cang&display=swap" rel="stylesheet">
+<link href="https://fonts.loli.net/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+<link href="https://fonts.loli.net/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+<!-- Font for Chinese post -->
+<link href="https://fonts.loli.net/css?family=Noto+Serif+SC&display=swap" rel="stylesheet">
 
-  <title>Archive | JnKuo's Site</title>
+<!-- Font for English title -->
+<link href="https://fonts.loli.net/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<!-- Font for English post -->
+<link href="https://fonts.loli.net/css?family=EB+Garamond&display=swap" rel="stylesheet">
+  <title>归档 | JnKuo's Site</title>
   
 
 
@@ -116,7 +127,7 @@
   </div>
 
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -130,22 +141,22 @@
   <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section">Home</a>
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section">Categories</a>
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section">Archives</a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
 
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/about/" rel="section">About</a>
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
 
   </li>
   </ul>
@@ -175,7 +186,7 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <span class="collection-header">Um..! 2 posts in total. Keep on posting.</span>
+        <span class="collection-header">嗯..! 目前共计 2 篇日志。 继续努力。</span>
       </div>
 
       
@@ -273,10 +284,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -300,7 +311,7 @@
         <a href="mailto:its@jnkuo.com" title="E-Mail → mailto:its@jnkuo.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://zhihu.com/people/jnkuo" title="Zhihu → https:&#x2F;&#x2F;zhihu.com&#x2F;people&#x2F;jnkuo" rel="noopener" target="_blank"><i class="fa fa-fw fa-user"></i></a>
+        <a href="https://zhihu.com/people/jnkuo" title="Zhihu → https:&#x2F;&#x2F;zhihu.com&#x2F;people&#x2F;jnkuo" rel="noopener" target="_blank"><i class="fa fa-fw fa-globe"></i></a>
       </span>
   </div>
 
@@ -319,6 +330,9 @@
         </li>
         <li class="links-of-blogroll-item">
           <a href="https://www.yinwang.org/" title="https:&#x2F;&#x2F;www.yinwang.org&#x2F;" rel="noopener" target="_blank">王垠的Blog</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://notes.iissnan.com/" title="https:&#x2F;&#x2F;notes.iissnan.com&#x2F;" rel="noopener" target="_blank">IIssNan's Notes</a>
         </li>
     </ul>
   </div>
@@ -345,21 +359,11 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">JnKuo 浆果</span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
-    </span>
-    <span title="Symbols count total">5k</span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-coffee"></i>
-    </span>
-    <span title="Reading time total">5 mins.</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.2.0
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.0
   </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.7.0
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.7.0
   </div>
 
         

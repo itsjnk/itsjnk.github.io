@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -10,7 +10,7 @@
 
 <link rel="stylesheet" href="/css/main.css">
 
-
+<link rel="stylesheet" href="https://fonts.loli.net/css?family=EB Garamond:300,300italic,400,400italic,700,700italic|Cinzel Decorative:300,300italic,400,400italic,700,700italic|Source Code Pro:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
 
 
@@ -48,7 +48,7 @@
 <meta property="og:title" content="JnKuo&#39;s Site">
 <meta property="og:url" content="http://www.jnkuo.com/index.html">
 <meta property="og:site_name" content="JnKuo&#39;s Site">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="JnKuo 浆果">
 <meta name="twitter:card" content="summary">
 
@@ -63,7 +63,18 @@
     isPost: false
   };
 </script>
+<!-- For Chinese title -->
+<link href="https://fonts.loli.net/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+<link href="https://fonts.loli.net/css?family=Long+Cang&display=swap" rel="stylesheet">
+<link href="https://fonts.loli.net/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+<link href="https://fonts.loli.net/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+<!-- Font for Chinese post -->
+<link href="https://fonts.loli.net/css?family=Noto+Serif+SC&display=swap" rel="stylesheet">
 
+<!-- Font for English title -->
+<link href="https://fonts.loli.net/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<!-- Font for English post -->
+<link href="https://fonts.loli.net/css?family=EB+Garamond&display=swap" rel="stylesheet">
   <title>JnKuo's Site</title>
   
 
@@ -116,7 +127,7 @@
   </div>
 
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -130,22 +141,22 @@
   <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section">Home</a>
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section">Categories</a>
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section">Archives</a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
 
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/about/" rel="section">About</a>
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
 
   </li>
   </ul>
@@ -173,7 +184,7 @@
         
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://www.jnkuo.com/2018/01/16/deal-with-intel-meltdown/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -196,36 +207,36 @@
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              <span class="post-meta-item-text">Posted on</span>
+              <span class="post-meta-item-text">发表于</span>
 
-              <time title="Created: 2018-01-16 20:16:49" itemprop="dateCreated datePublished" datetime="2018-01-16T20:16:49+08:00">2018-01-16</time>
+              <time title="创建时间：2018-01-16 20:16:49" itemprop="dateCreated datePublished" datetime="2018-01-16T20:16:49+08:00">2018-01-16</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">In</span>
+              <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Computer-Architecture/" itemprop="url" rel="index">
-                    <span itemprop="name">Computer Architecture</span>
+                  <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/" itemprop="url" rel="index">
+                    <span itemprop="name">计算机体系结构</span>
                   </a>
                 </span>
             </span>
 
           <br>
-            <span class="post-meta-item" title="Symbols count in article">
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="fa fa-file-word-o"></i>
               </span>
-                <span class="post-meta-item-text">Symbols count in article: </span>
+                <span class="post-meta-item-text">本文字数：</span>
               <span>4.1k</span>
             </span>
-            <span class="post-meta-item" title="Reading time">
+            <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>4 mins.</span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>4 分钟</span>
             </span>
 
         </div>
@@ -237,11 +248,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h3 id="Update-Jan-16th-学者不可以不深思而慎取之"><a href="#Update-Jan-16th-学者不可以不深思而慎取之" class="headerlink" title="Update Jan 16th 学者不可以不深思而慎取之"></a>Update Jan 16th 学者不可以不深思而慎取之</h3><p>昨晚请教了龙芯的老师和同学，可以肯定三件事：</p>
-<ul>
-<li>龙芯处理器从微结构设计上对 Meltdown 免疫。</li>
-<li>Intel 处理器被 Meltdown 攻击，是访存逻辑设计缺陷造成的。</li>
-<li>目前任何采用“乱序执行”技术的处理器理论上都无法避免 Spectre 的攻击。
+          老师讲到了使 Intel 陷入危机的“Meltdown 攻击”。但在分析 Intel 的漏洞时，老师也不太清楚。我觉得，之所以龙芯、AMD 和 ARM 的处理器不受 Meltdown 的影响，很可能是……
           <!--noindex-->
           <!--/noindex-->
         
@@ -262,7 +269,7 @@
         
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://www.jnkuo.com/2018/01/10/my-analysis-of-meltdown/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -285,36 +292,36 @@
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              <span class="post-meta-item-text">Posted on</span>
+              <span class="post-meta-item-text">发表于</span>
 
-              <time title="Created: 2018-01-10 19:45:29" itemprop="dateCreated datePublished" datetime="2018-01-10T19:45:29+08:00">2018-01-10</time>
+              <time title="创建时间：2018-01-10 19:45:29" itemprop="dateCreated datePublished" datetime="2018-01-10T19:45:29+08:00">2018-01-10</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">In</span>
+              <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Computer-Architecture/" itemprop="url" rel="index">
-                    <span itemprop="name">Computer Architecture</span>
+                  <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/" itemprop="url" rel="index">
+                    <span itemprop="name">计算机体系结构</span>
                   </a>
                 </span>
             </span>
 
           <br>
-            <span class="post-meta-item" title="Symbols count in article">
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="fa fa-file-word-o"></i>
               </span>
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>935</span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>911</span>
             </span>
-            <span class="post-meta-item" title="Reading time">
+            <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>1 mins.</span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -326,7 +333,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h3 id="Update-Jan-10th：对-Intel-漏洞的猜测"><a href="#Update-Jan-10th：对-Intel-漏洞的猜测" class="headerlink" title="Update Jan 10th：对 Intel 漏洞的猜测"></a>Update Jan 10th：对 Intel 漏洞的猜测</h3><p>假如 Intel 的乱序执行是指令不提交不报错，那么第4条指令越界取值到 rax’（重命名寄存器中的 rax 中间值），只要第4条不提交，第5条就根据 rax’ 的值继续走，第6条指令接着走。然后 rbx’ 坐等 probe 数组中部分数据进 cache（第7条指令）……</p>
+          周一上课，老师提到了Meltdown程序。它的作用是利用Intel处理器“乱序执行”的漏洞，“偷出”核心态内存地址段中，用户态程序不可见的值……
           <!--noindex-->
           <!--/noindex-->
         
@@ -389,10 +396,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -416,7 +423,7 @@
         <a href="mailto:its@jnkuo.com" title="E-Mail → mailto:its@jnkuo.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://zhihu.com/people/jnkuo" title="Zhihu → https:&#x2F;&#x2F;zhihu.com&#x2F;people&#x2F;jnkuo" rel="noopener" target="_blank"><i class="fa fa-fw fa-user"></i></a>
+        <a href="https://zhihu.com/people/jnkuo" title="Zhihu → https:&#x2F;&#x2F;zhihu.com&#x2F;people&#x2F;jnkuo" rel="noopener" target="_blank"><i class="fa fa-fw fa-globe"></i></a>
       </span>
   </div>
 
@@ -435,6 +442,9 @@
         </li>
         <li class="links-of-blogroll-item">
           <a href="https://www.yinwang.org/" title="https:&#x2F;&#x2F;www.yinwang.org&#x2F;" rel="noopener" target="_blank">王垠的Blog</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://notes.iissnan.com/" title="https:&#x2F;&#x2F;notes.iissnan.com&#x2F;" rel="noopener" target="_blank">IIssNan's Notes</a>
         </li>
     </ul>
   </div>
@@ -461,21 +471,11 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">JnKuo 浆果</span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
-    </span>
-    <span title="Symbols count total">5k</span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-coffee"></i>
-    </span>
-    <span title="Reading time total">5 mins.</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.2.0
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.0
   </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.7.0
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.7.0
   </div>
 
         
